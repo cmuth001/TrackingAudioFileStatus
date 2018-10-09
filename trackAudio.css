@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+
+#status span.status {
+  display: none;
+  font-weight: bold;
+}
+span.status.complete {
+  color: green;
+}
+span.status.incomplete {
+  color: red;
+}
+#status.complete span.status.complete {
+  display: inline;
+}
+#status.incomplete span.status.incomplete {
+  display: inline;
+=======
+
+#status span.status {
+  display: none;
+  font-weight: bold;
+}
+span.status.complete {
+  color: green;
+}
+span.status.incomplete {
+  color: red;
+}
+#status.complete span.status.complete {
+  display: inline;
+}
+#status.incomplete span.status.incomplete {
+  display: inline;
+>>>>>>> a3e08d5e1495757f02925af349991822fc2f45c4
+}
