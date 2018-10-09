@@ -1,6 +1,6 @@
 
     
-    function onClickVideo(id){
+    function onClickAudio(id){
         console.log("Audio: "+id);
         var audio = document.getElementById("audio_"+id);
         var timeStarted = -1;

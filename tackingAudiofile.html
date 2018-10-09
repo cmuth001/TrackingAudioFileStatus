@@ -9,16 +9,14 @@
   </head>      
 <body>
     <div class="row">
-        <!-- <video  class = "activeState"  onmouseover = " onClickVideo(1); onmouseover = null;"  width="500" id="video_1"  height ="400" controls>
-            <source type="video/mp4" src="./a1.mp4#t=20" >
-        </video> -->
+       
         <audio 
             id="audio_1"
             controls="" 
             src="./sampleAudioFiles/Introduction_mod2.mp3" 
             type="audio/mpeg" 
             class="audioClass activeState"  
-            onmouseover = " onClickVideo(1);onmouseover = null;"
+            onmouseover = " onClickAudio(1);onmouseover = null;"
         ></audio>
         <!-- <div id="status" class="incomplete">
             <span>Play status: </span>
@@ -42,7 +40,7 @@
             src="./sampleAudioFiles/Section_1_mod2.mp3" 
             type="audio/mpeg" 
             class="audioClass activeState"  
-            onmouseover = " onClickVideo(2);onmouseover = null;"
+            onmouseover = " onClickAudio(2);onmouseover = null;"
         ></audio>
             <!-- <div id="status" class="incomplete">
                 <span>Play status: </span>
@@ -51,11 +49,11 @@
                 <br />
             </div> -->
             <div>
-                User watched <span id="played_2">0</span> seconds out of 
-                <span id="duration_2"></span> seconds. (only updates when the video pauses)
+                User listened <span id="played_2">0</span> seconds out of 
+                <span id="duration_2"></span> seconds. (only updates when the audio pauses)
             </div>
             <div class = "current_2">Current Time: 0:00</div>
-            <div class ="duration_2">Video Length: 0:00</div>
+            <div class ="duration_2">Audio Length: 0:00</div>
         </div>
         
   <!-- end snippet -->
